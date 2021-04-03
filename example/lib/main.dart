@@ -22,7 +22,7 @@ class _MyAppState extends State<MyApp> {
   }
 
   Future<void> search() async {
-    appName = await AndroidSchemeSearch.search('http://www.google.com');
+    appName = await AndroidSchemeSearchPlugin.search('http://www.google.com');
     if (mounted) {
       setState(() {});
     }

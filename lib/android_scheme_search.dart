@@ -6,7 +6,9 @@ import 'dart:async';
 
 import 'package:flutter/services.dart';
 
-class AndroidSchemeSearch {
+class AndroidSchemeSearchPlugin {
+  const AndroidSchemeSearchPlugin._();
+
   static const MethodChannel _channel = MethodChannel('android_scheme_search');
 
   static Future<String?> search(String url) =>
