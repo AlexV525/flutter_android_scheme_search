@@ -1,0 +1,16 @@
+name: android_scheme_search_example
+description: Demonstrates how to use the android_scheme_search plugin.
+publish_to: 'none'
+
+environment:
+  sdk: ">=2.12.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  android_scheme_search:
+    path: ../
+
+flutter:
+  uses-material-design: true
