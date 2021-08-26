@@ -1,6 +1,6 @@
 name: android_scheme_search
 description: A plugin that search apps according to the given url scheme.
-version: 1.0.0
+version: 1.0.1
 # author: google@alexv525.com
 homepage: https://github.com/AlexV525/flutter_android_scheme_search
 
